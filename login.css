@@ -1,1 +1,82 @@
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35%;
+  margin-top: 50px;
+}
 
+.icon {
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hello {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  display: none;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 16%;
+  margin-bottom: 50px;
+}
+
+.username {
+  height: 25px;
+  width: 60%;
+}
+
+.password {
+  height: 25px;
+  width: 60%;
+}
+
+button {
+  height: 20px;
+  width: 50%;
+}
+
+@media screen and (min-width: 2400px) {
+  p {
+    display: none;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  h2 {
+    display: inline;
+  }
+}
