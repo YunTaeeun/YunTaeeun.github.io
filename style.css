@@ -1,1 +1,23 @@
+@import url('home.css');
+@import url('menu.css');
+@import url('login.css');
 
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  width: 360px;
+  height: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #00c6ad;
+  background-color: white;
+}
